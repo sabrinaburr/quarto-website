@@ -1,1 +1,29 @@
-/* css styles */
+/* 1. The Basics: Off-white background & fast system fonts */
+body {
+  background-color: #fcfcfc;
+  color: #222;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+/* 2. Headers: Dark blue with a thick underline */
+h1, h2, h3 {
+  color: #0f172a;
+  border-bottom: 4px solid #3b82f6; /* Electric Blue */
+  padding-bottom: 5px;
+}
+
+/* 3. Links: bold and matching the header accent */
+a {
+  color: #2563eb;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:hover { text-decoration: underline; }
+
+/* 4. The "Cool" Part: Boxy shadows on Code & Plots */
+pre, figure, img {
+  border: 1px solid #000;
+  border-radius: 6px;
+  /* This creates a hard, retro shadow effect */
+  box-shadow: 6px 6px 0px rgba(0,0,0,0.15);
+}
